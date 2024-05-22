@@ -8,7 +8,7 @@ const todoSchema = Schema({
     completed: Boolean
 }) 
 
-const todo=model('todos' , todoSchema)
+const todo=model('todo' , todoSchema)
 
 export default {
     todo
